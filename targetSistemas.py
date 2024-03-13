@@ -37,7 +37,7 @@ def ex4():
     print('          Para resolver o desafio, deve-se levar em conta o aquecimento que existe na lampada, causado pela energia elétrica que a resistência absorve e transforma em energia térmica. A partir disso, acenderia um interruptor e o deixaria ligado por alguns minutos, depois o apagaria e acenderia algum outro, assim quando for a qualquer sala, posso assumir que se sua lampada estiver acesa, ela pertence ao interruptor ligado, se estiver apagada e quente pertence ao interruptor que foi ligado por um tempo e depois desligado, e se estiver apagada e fria a lampada pertence ao interruptor que não foi mexido. Para descobrir as demais salas, ligaria qualquer um dos interruptores restantes e iriamos para uma sala diferente da primeira. Caso a sala estivesse acesa, atribuiria o interruptor ligado àquela sala e o outro interruptor para a sala restante, e caso estivesse apagada, atribuiria o interruptor desligado à sala em que estou e o ligado à outra sala')
 
 def ex5():
-    print('\nExercicio 4:')
+    print('\nExercicio 5:')
     a = str(input('Digite a String a ser invertida: '))
     b = a[::-1] #utilizando indexacao, pois a String é iteravel em python.
     print(f'String invertida: {b}')
